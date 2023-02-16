@@ -1,0 +1,218 @@
+@font-face {
+    font-family: Colus;
+    src: url(../Font/Colus-Regular.ttf);
+}
+
+* {}
+
+body {
+    background-color: #e4e5e6;
+    text-align: center;
+    font-family: Colus;
+}
+
+.mainDiv {
+    text-align: center;
+}
+
+.backDiv {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.titleMain {
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+    display: block;
+    color: #2b5876;
+    text-align: center;
+}
+
+.labelEmail {
+    font-size: 12px;
+    position: relative;
+    top: 17px;
+    left: -100px;
+}
+
+.inputEmail {
+    /* border-radius: 5px; */
+    position: relative;
+    top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: none;
+    border-bottom: solid 2px #403dc6;
+    width: 60%;
+    height: 30px;
+    transition: 0.4s;
+    font-weight: lighter;
+    font-size: 14px;
+    display: block;
+    color: #3a396d;
+
+}
+
+.inputEmail:focus {
+    /* background-color: aqua; */
+    width: 75%;
+    outline: none;
+    border-bottom: solid 2px #403dc6;
+    transition: 0.4s;
+    font-size: 18px;
+}
+
+.labelPass {
+    font-size: 12px;
+    position: relative;
+    top: 60px;
+    left: -100px;
+    display: block;
+}
+
+
+.inputPass {
+    position: relative;
+    top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: none;
+    border-bottom: solid 2px #403dc6;
+    width: 60%;
+    height: 30px;
+    transition: 0.4s;
+    font-weight: lighter;
+    font-size: 18px;
+    display: block;
+    color: #3a396d;
+}
+
+.inputPass:focus {
+    width: 75%;
+    outline: none;
+    border-bottom: solid 2px #403dc6;
+    transition: 0.4s;
+}
+
+.forgetpass {
+    font-size: 10px;
+    position: relative;
+    top: 62px;
+    right: -80px;
+    text-decoration: none;
+    color: gray;
+}
+
+.buttonForm {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 100px;
+    display: block;
+    padding: .75rem 2rem;
+    outline: none;
+    background-color: #403dc6;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: .4s;
+    border: hidden;
+}
+
+.buttonForm:hover {
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, .45);
+}
+
+.otherLogin {
+    font-size: 17px;
+    margin-top: 150px;
+    /* position: absolute;
+    top: 430px; */
+    color: #2b5876;
+    display: block;
+}
+
+.icon {
+    width: 20px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.facebook {
+    width: 22px;
+}
+
+@media screen and (max-width : 540px) {
+    .backDiv {
+        width: 300px;
+    }
+
+    .labelEmail {
+        font-size: 11px;
+        left: -75px;
+    }
+
+    .labelPass {
+        font-size: 11px;
+        left: -75px;
+    }
+
+    .titleMain {
+        font-size: 30px;
+    }
+
+    .otherLogin {
+        font-size: 14px;
+    }
+
+    .buttonForm {
+        padding: .75rem 6rem;
+    }
+
+    .forgetpass {
+        right: -63px;
+        font-size: 9px;
+    }
+    .inputEmail{
+        width: 50%;
+    }
+    .inputPass{
+        width: 50%;
+
+    }
+
+}
+
+@media screen and (max-width : 380px) {
+    .backDiv {
+        width: 300px;
+    }
+
+    .buttonForm {
+        padding: .75rem 4.5rem;
+    }
+
+    .labelEmail {
+        font-size: 10px;
+        left: -66px;
+    }
+
+    .labelPass {
+        font-size: 10px;
+        left: -66px;
+    }
+
+    .forgetpass {
+        right: -46px;
+        font-size: 9px;
+    }
+    .icon{
+        margin: 4px;
+    }
+
+}
