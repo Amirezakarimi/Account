@@ -129,7 +129,7 @@ body {
 }
 
 @media screen and {
-    max-width: 600px;
+    min-width: 600px;
 
     .backDiv {
         width: 70%;
